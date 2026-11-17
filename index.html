@@ -292,14 +292,14 @@ dialog::backdrop{background:rgba(8,17,23,.55)}
 <script>
 (() => {
 const TYPES = [
-  {id:"s-local",    label:"Single arch, local (under 75 mi)",       amt:1050},
-  {id:"s-regional", label:"Single arch, regional (75–200 mi)",      amt:1350},
-  {id:"s-national", label:"Single arch, national (200+ mi or flight)", amt:1700},
-  {id:"s-rural",    label:"Single arch, national rural",            amt:2100},
-  {id:"d-local",    label:"Double arch, local (under 75 mi)",       amt:1525},
-  {id:"d-regional", label:"Double arch, regional (75–200 mi)",      amt:1975},
-  {id:"d-national", label:"Double arch, national (200+ mi or flight)", amt:2500},
-  {id:"d-rural",    label:"Double arch, national rural",            amt:3100},
+  {id:"s-local",    label:"Single arch, local (under 75 mi)",       amt:1250},
+  {id:"s-regional", label:"Single arch, regional (75–200 mi)",      amt:1550},
+  {id:"s-national", label:"Single arch, national (200+ mi or flight)", amt:2050},
+  {id:"s-rural",    label:"Single arch, national rural",            amt:2250},
+  {id:"d-local",    label:"Double arch, local (under 75 mi)",       amt:1900},
+  {id:"d-regional", label:"Double arch, regional (75–200 mi)",      amt:2300},
+  {id:"d-national", label:"Double arch, national (200+ mi or flight)", amt:2800},
+  {id:"d-rural",    label:"Double arch, national rural",            amt:3400},
 ];
 const typeById = Object.fromEntries(TYPES.map(t=>[t.id,t]));
 const $ = s => document.querySelector(s);
